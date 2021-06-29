@@ -1,0 +1,67 @@
+Exercicio 1
+void main() {
+  String nome = "Ana";
+  String sobrenome = "Silva";
+  num idade = 26;
+  String endereco = "Rua ABC";
+  
+  print("Seu nome: $nome\n"
+        "Sobrenome: $sobrenome\n"
+        "Sua idade: $idade\n"
+        "Seu endereço: $endereco");
+}
+----------------------------
+Exercicio 2 
+void main() {
+  String entrada = "12,50 Reais";
+  print("Valor da entrada do cinema: $entrada\n");
+  
+  double valorent = 12.50;
+  double mult = valorent * 4;
+  
+  print("Valor para 4 pessoas: $mult Reais");    
+}
+----------------------------
+Exercicio 3 
+void main() {
+  num bmenor = 5;
+  num bmaior = 7;
+  num alt = 8; 
+  
+  num resultadob = bmenor + bmaior;
+  num resultadoalt = resultadob * alt;
+  num resultadof = resultadoalt / 2;
+  
+  
+  print("Base maior do trapézio: $bmaior m \n"
+        "Base menor do trapézio: $bmenor m \n"
+        "Altura do trapézio: $alt m \n"
+        "Área total do trapézio: $resultadof m"
+  );
+}
+ 
+-----------------------
+Exercicio 4
+void main() {
+  num quadrado = 4;
+  num resultadoa = quadrado * quadrado;
+  
+  print("Altura de um quadrado é: $quadrado m\n"
+        "Sabendo isso, a área total de um quadrado é: $resultadoa m"
+  );
+}
+ 
+--------------------
+Exercicio 5
+void main() {
+  String nome = "Ana Maria";
+  
+  if(nome == "Ana Maria"){
+    print("É a mesma pessoa!");
+  } else {
+    print("Os nomes não conferem!");
+  
+  }
+}
+ 
+
